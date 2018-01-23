@@ -25,7 +25,7 @@ var data = {
     latitude: 19.4287161,
     longitude: -99.16875270000003,
     address: 'Calle Tonala 30',
-    picture: './assets/images/italiana.png'
+    picture: './assets/images/Italiana.png'
   }, {
     country: 'México',
     city: 'Mexico City',
