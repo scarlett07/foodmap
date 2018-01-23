@@ -1,0 +1,62 @@
+body {
+	background-color: #2B2B2B;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+hr {
+	padding: 0;
+	margin-bottom: 4%;
+	margin-top: 0;
+	background-color: white;
+	border: none;
+	height: 3px;
+
+}
+
+#intro {
+	font-size: 70px;
+	height: 100vh;
+	padding-top: 70%;
+	width: 100%;
+}
+
+#mapa{
+  height: 250px;
+}
+
+.buscador{
+  background-color: #2B2B2B;
+	padding: 2px;
+	padding-right: 5px !important;
+	margin-left: -10px;
+}
+
+.boton-buscar{
+  border-style: none;
+	background-color: white;
+	height: 22px;
+	padding-right: 1px;
+}
+
+.foodmap{
+  color: #DE8536
+}
+
+.gallery{
+  padding-top: 5%;
+}
+
+.placeholder{
+  border: none;
+	outline: none;
+}
+
+.white{
+  color: white;
+}
