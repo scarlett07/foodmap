@@ -1,5 +1,5 @@
 $(document).ready(function(){
   setTimeout(function(){
-    location.href="index.html";
+    location.href="home.html";
   }, 3000);
 })
