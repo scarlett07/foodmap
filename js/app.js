@@ -31,8 +31,8 @@ function loadAllData(filter) {
     value.address.toLowerCase().includes(filter) ||
     value.name.toLowerCase().includes(filter)
   ) {
-      var div = $('<div class="col-sm-4 col-xs-4 col-md-3"></div>');
-      var a = $('<a href="#" class="thumbnail"></a>')
+      var div = $('<div class="col-sm-4 col-xs-6 col-md-4"></div>');
+      var a = $('<a href="#" data-toggle="modal" data-target="#myModal" class="thumbnail"></a>')
       var image = $('<img src="' + value.picture + '" alt="' + value.name + '">');
       a.append(image);
       div.append(a);
