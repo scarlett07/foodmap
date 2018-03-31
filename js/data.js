@@ -20,7 +20,7 @@ var data = {
   }, {
     country: 'México',
     city: 'Mexico City',
-    name: 'Taquitos Sensuales',
+    name: 'Comida Italiana',
     type: 'italiana',
     latitude: 19.4287161,
     longitude: -99.16875270000003,
@@ -38,7 +38,7 @@ var data = {
   }, {
     country: 'México',
     city: 'Mexico City',
-    name: 'Taquitos Sensuales',
+    name: 'Mar y tierra',
     type: 'mariscos',
     latitude: 19.4287161,
     longitude: -99.16875270000003,
