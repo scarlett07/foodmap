@@ -6,16 +6,6 @@ var gallery = $('#gallery');
 //cargando funciones
 $(document).ready(initApp());
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById('mapa'), {
-    center: {
-      lat: 19.4203024,
-      lng: -99.1631142
-    },
-    zoom: 15
-  });
-}
-
 function initApp() {
   loadAllData('');
   //Eventos
@@ -42,12 +32,31 @@ function loadAllData(filter) {
       gallery.append(div);
     }
   });
-}
+} //END loadAllData
 
-function loadModal(event, restaurantes){
+//modal
+
+function loadModal(event){
   var datosRestaurant = event.target.alt
   console.log(datosRestaurant);
   var restaurant = document.getElementById('restaurant');
   var description = document.getElementById('description');
+  var photo = document.getElementById('imagen');
   restaurant.innerText= datosRestaurant;
+  var selection = restaurantes
+  .filter(element =>element.name==datosRestaurant);
+  description.innerText= selection[0].address;
+  photo.src= selection[0].picture;
+} //END loadModal
+
+
+//mapa
+function initMap() {
+  map = new google.maps.Map(document.getElementById('mapa'), {
+    center: {
+      lat: 19.4203024,
+      lng: -99.1631142
+    },
+    zoom: 15
+  });
 }
