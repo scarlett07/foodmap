@@ -1,4 +1,6 @@
-1. F O O D M A P
+#FOODMAP
+
+ F O O D M A P
 Web-app que a través de un input filtra los restaurantes que se encuentran cerca de ti.
 
 Las herramientas utilizadas para el desarrollo de este proyecto fueron: html, bootstrap, css, jquery y JS
